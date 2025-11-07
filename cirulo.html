@@ -1,43 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylecirculo.css">
+<meta charset="UTF-8">
+<title>Posicionamiento</title>
 
-<style> 
+<style>
 
-    * {
-        box-sizing: border-box;
-    }
+  *{
+    box-sizing: border-box;
+  }
 
-    .cuadrado {
-    background-color: gray;
-    float: right;
-    width: 1000px;
-    height: 400px;
-    margin: auto;
-    border: 1px solid gray;
-}
+  body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    background-color: #f2f2f2;
+  }
 
-.circulo {
-  float: left;
-  width: 100px;
-  height: 20px;
-  margin-bottom: auto;
-  border-radius: 5em;
-}
+  .contenedor{
+    width: 350px;
+    height: 350px;
+    background-color: lightgray;
+    border: 3px solid black;
+    position: relative;   
+  }
+
+  .circulo{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+    
+    position: absolute;       
+    bottom: 30px;             
+    right: 30px;              
+  }
 
 </style>
 
 </head>
 <body>
-    <main>
-        <section>
-    <div class="cuadrado"></div>
-    <div class="circulo"></div>
-        </section>
-    </main>
+
+<div class="contenedor">
+  <div class="circulo"></div>
+</div>
+
 </body>
 </html>
