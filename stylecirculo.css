@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.cuadrado {
+    float: left;
+    color: gray;
+    width: 10000px;
+    height: 100%;
+    margin: auto;
+    border: 10px solid gray;
+    position-anchor: 10px;
+
+}
