@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Contenido Vertical</title>
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background-color: gray
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .contenedor{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .tarjeta{
+        background-color: white;
+        width: 100%;
+        border: 1px solid gray;
+        border-radius: 6px;
+        padding: 20px;
+        margin-bottom: 20px; /* separa las tarjetas */
+        text-align: left;
+    }
+
+    .tarjeta h2{
+        margin-bottom: 10px;
+        font-size: 22px;
+        color: #333;
+    }
+
+    .tarjeta p{
+        margin-bottom: 15px;
+        color: gray
+        font-size: 15px;
+    }
+
+    .boton{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: lightblue;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .boton:hover{
+        background-color: lightblue;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="contenedor">
+
+    <div class="tarjeta">
+        <h2>Título de Contenido 1</h2>
+        <p>Este es el primer elemento de contenido.</p>
+        <button class="boton">Botón 1</button>
+    </div>
+
+    <div class="tarjeta">
+        <h2>Título de Contenido 2</h2>
+        <p>Este es el segundo elemento de contenido.</p>
+        <button class="boton">Botón 2</button>
+    </div>
+
+</div>
+
+</body>
+</html>
